@@ -36,12 +36,3 @@ void quick_sort(It first, It last, Compare cmp=Compare{});
 template <class It, class Compare=std::less<>>
 void insertion_sort(It first, It last, Compare cmp=Compare{});
 ```
-
-7. Реализуйте модульные тесты. Миниальное покрытие кода должно превышать 85%.
-
-8. Сравните производительность всех реализованных алгоритмов сортировки (`merge_sort`, `inplace_merge_sort`, `heap_sort`, `quick_sort`, `insertion_sort`, `std::stable_sort`, `std::sort`).
-Составьте отчет. Отчет должен включать в себя:
-    * описание алгоритмов;
-    * блок схемы алгоритмов;
-    * зависимость времени работы алгоритмов от количества данных;
-    * вывод.
